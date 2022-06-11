@@ -91,12 +91,13 @@ nav .other-links:hover ul {
   position: fixed;
   top: 73px;
   opacity: 1;
+  display: flex;
 }
 
 nav .other-links ul {
   position: fixed;
   z-index: 4;
-  top: 100%;
+  top: 73px;
   left: 50%;
   transform: translate(-50% , 0);
   display: flex;
@@ -112,6 +113,7 @@ nav .other-links ul {
   border-bottom-left-radius: 4px;
   transition: var(--main-trans);
   opacity: 0;
+  display: none;
 }
 
 nav .other-links ul .img img {
